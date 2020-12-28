@@ -7,4 +7,8 @@
     <string name="mess_menu">Mess Menu</string>
     <string name="fee_details">Fee Details</string>
     <string name="campus_map">Campus Map</string>
+    <string name="name">Name</string>
+    <string name="college_name">College Name</string>
+    <string name="university_roll_number">University Roll Number</string>
+    <string name="email_id">Email Id</string>
 </resources>
