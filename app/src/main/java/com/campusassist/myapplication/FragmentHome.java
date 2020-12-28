@@ -20,19 +20,22 @@ public class FragmentHome extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
+        /* NullPointerException aara yaha pe, getView() m kuch problem h..tutorial m view() tha sirf..library ka issue h yaha pe shyd
         btnFacultyDeets= getView().findViewById(R.id.btnFacultyDeets);
         btnMessMenu= getView().findViewById(R.id.btnMessMenu);
         btnFeeDeets= getView().findViewById(R.id.btnFeeDeets);
         btnClgMap= getView().findViewById(R.id.btnClgMap);
+        */
 
+        /* upar wale commented out h isliye inhe bhi kardiya, resolve kardena
         btnFacultyDeets.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 /*Intent intent=new Intent(FragmentHome.this,FacultyDeets.class);
                 startActivity(intent);
 
-                 */
+
             }
         });
 
@@ -43,7 +46,7 @@ public class FragmentHome extends Fragment {
                 Intent intent=new Intent(MainActivity.this,com.campusassist.myapplication.MessMenu.class);
             startActivity(intent);
 
-             */
+             //
             }
         });
 
@@ -54,7 +57,7 @@ public class FragmentHome extends Fragment {
                 Intent intent=new Intent(FragmentHome.this,com.campusassist.myapplication.FeeDeets.class);
             startActivity(intent);
 
-             */
+
             }
         });
 
@@ -64,6 +67,7 @@ public class FragmentHome extends Fragment {
             //Intent intent=new Intent(FragmentHome.this);
             }
         });
+        */
 
         return inflater.inflate(R.layout.fragment_home,container,false);
     }
