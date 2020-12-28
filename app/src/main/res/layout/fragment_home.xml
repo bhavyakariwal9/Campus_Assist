@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_light">
+    android:background="@android:color/holo_green_light"
+    android:orientation="vertical">
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/btnFacultyDeets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="70dp"
+        android:text="@string/faculty_contact_details" />
+
+    <Button
+        android:id="@+id/btnMessMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="70dp"
+        android:text="@string/mess_menu" />
+
+    <Button
+        android:id="@+id/btnFeeDeets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="70dp"
+        android:text="@string/fee_details" />
+
+    <Button
+        android:id="@+id/btnClgMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="70dp"
+        android:text="@string/campus_map" />
+</LinearLayout>
