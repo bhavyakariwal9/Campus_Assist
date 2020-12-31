@@ -11,4 +11,10 @@
     <string name="college_name">College Name</string>
     <string name="university_roll_number">University Roll Number</string>
     <string name="email_id">Email Id</string>
+    <string name="description">description</string>
+    <string name="details">Details</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="log_out">Log Out</string>
 </resources>
